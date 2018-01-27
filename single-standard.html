@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>JK Projekt</title>
+ <meta name="description" content="">  
+ <meta name="author" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <link rel="stylesheet" href="css/base.css">
+ <link rel="stylesheet" href="css/vendor.css">  
+ <link rel="stylesheet" href="css/main.css">
+ <script src="js/modernizr.js"></script>
+ <script src="js/pace.min.js"></script>
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body id="top">
+ <header class="short-header">   
+  <div class="gradient-block"></div>	
+  <div class="row header-content">
+   <div class="logo">
+    <a href="index.html">Josip</a>
+  </div>
+  <nav id="main-nav-wrap">
+    <ul class="main-navigation sf-menu">
+     <li><a href="index.html" title="">Početna</a></li>
+     <li class="has-children current">
+      <a href="single-standard.html" title="">Blog</a>
+      <ul class="sub-menu">
+       <li><a href="single-video.php">Video</a></li>
+       <li><a href="single-audio.php">Audio</a></li>
+     </ul>
+   </li>
+   <li><a href="Rezervacije.php" title="">Rezervacije</a></li>	
+   <li><a href="kontakt.html" title="">Kontakt</a></li>										
+ </ul>
+</nav>
+</div>
+</header>
+<h2 style="text-align:center">Koncerti 2018</h2>
+<div class="row">
+  <div>
+    <center>
+      <ul style="list-style-type:none">
+        <li >2. veljače 2018 Arena centar Zagreb Koncert - Rod Stewart
+          <br><center><img height="200" width="200" src='images/thumbs/featured/RodStewart.jpg'> </center>
+        </li>
+        <li>10. ožujka 2018 Arena centar Zagreb  Koncert - Andrea Bocelli
+          <br><center><img height="200" width="200" src='images/thumbs/featured/AndreaB.jpg'> </center>
+        </li>
+      </ul>
+    </center>
+  </div>
+</div>
+<h2 style="text-align:center">Povijest događaja</h2>
+<div class="row">
+  <div>
+    <ul>
+      <li>2. veljače 2018 Arena centar Zagreb Koncert - Rod Stewart</li>
+      <li>10. ožujka 2018 Arena centar Zagreb  Koncert - Andrea Bocelli</li>
+    </ul>
+  </div>
+</div>
+<h2 style="text-align:center">Fotogalerija</h2>
+<div class="row">
+  <div class="column">
+    <img src="images/img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/img_fjords.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/thumbs/about-us-thumb.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/thumbs/beyonceslika-thumb.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/thumbs/slika1-thumb.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/thumbs/ferris-wheel-thumb.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+</div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="images/img_nature_wide.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="images/img_fjords_wide.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="images/img_mountains_wide.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="images/img_lights_wide.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="images/thumbs/about-us.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="images/thumbs/beyonceslika.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="images/thumbs/slika1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="images/thumbs/ferris-wheel.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/img_fjords_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumbs/about-us.jpg" style="width:100%" onclick="currentSlide(5)" alt="About us">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumbs/beyonceslika-thumb.jpg" style="width:100%" onclick="currentSlide(6)" alt="Beyonce">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumbs/slika1.jpg" style="width:100%" onclick="currentSlide(7)" alt="Fortic">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/thumbs/ferris-wheel.jpg" style="width:100%" onclick="currentSlide(8)" alt="Fortic">
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="footer-main">
+   <div class="row">  
+    <div class="col-four tab-full mob-full footer-info">
+    </div>
+    <div class="footer-bottom">
+     <div class="row">
+      <div class="col-twelve">
+       <div class="copyright">
+        <span>© Copyright Josip Kaurinović 2017</span> 
+        <div id="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+        </div>         
+      </div>
+    </div> 
+  </div> 
+</footer>  
+<div id="preloader"> 
+ <div id="loader"></div>
+</div>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+  function openModal() {
+    document.getElementById('myModal').style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+  }
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+    </script>
+
+  </body>
+
+  </html>

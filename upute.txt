@@ -1,0 +1,10 @@
+upute:
+
+BAZA:
+napraviti bazu "koncerti"
+podesiti "konfiguracija.php" u podatke koji su podeseni na mysql
+preko admin konzole napraviti import "koncerti.sql"
+
+PROJEKT:
+raspakirati "projekti.zip" u htdocs (ako se koristi xamp)
+pristupanje putem linka = http://localhost/projekt/
